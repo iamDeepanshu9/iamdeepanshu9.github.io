@@ -1,0 +1,19 @@
+{
+  "name": "Fitzeus.website",
+  "version": "1.0.0",
+  "description": "Abhinav Fitness Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamDeepanshu9/Fitzeus.website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamDeepanshu9/Fitzeus.website/issues"
+  },
+  "homepage": "https://github.com/iamDeepanshu9/Fitzeus.website#readme"
+}
