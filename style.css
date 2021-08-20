@@ -1,10 +1,19 @@
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_960_720.jpg);
-   backdrop-filter: blur(5px);
+    background-image: url(assests/background.jpg);
+   
     background-size:cover;
-}
-h1{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.header{
     text-decoration: solid;
     text-shadow: 2em;
-    font-size: 6rem;
+    font-size: 2rem;
+}
+
+.footer{
+    text-align: end;
+    font-style: oblique;
+    font-weight: bolder;
 }
