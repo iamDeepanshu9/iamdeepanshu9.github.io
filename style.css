@@ -17,6 +17,10 @@ body{
     font-style: oblique;
     font-weight: bolder;
 }
+
+.footer img{
+    border-style: dotted ;
+}
 .profile img{
     border-radius: 50%;
 }
