@@ -24,3 +24,10 @@ body{
 .profile img{
     border-radius: 50%;
 }
+
+.container{
+    border-style: dashed;
+    border : 20rem 12rem 20rem 12rem;
+    position: fixed;
+    padding: 20% 10% 10% 20%;
+}
