@@ -6,15 +6,35 @@ header{
     text-transform: uppercase;
     font-family: sans-serif;
 }
+
 .container{
     text-align: center;
     font-style: italic;
     background-color: black;
     background-size: cover;
 }
+
 .container p{
     color: aliceblue;
 }
+
+.grid-section ul{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 5%;
+    top: 0;
+}
+
+.grid-section li{
+    float: left;
+    padding-left:2px;
+    padding-right:2px ;
+}
+
+
 
 footer h3{
     font-size: 60px;
