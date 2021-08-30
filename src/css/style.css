@@ -21,21 +21,31 @@ header{
 .grid-section ul{
     
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    
     position: relative;
-    right: 5%;
+    right: 0%;
     top: 0;
 }
 
-.grid-section li{
+.grid-section li img{
+    width: auto;
+    height: 16rem;
+    display: flex;
+   
+    justify-content: space-evenly;
     float: left;
-    padding-left:2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-left:12px;
     padding-right:2px ;
 }
 
 
-
+footer{
+    position: relative;
+    margin-bottom: 0px;
+}
 footer h3{
     font-size: 60px;
     text-align: center;
