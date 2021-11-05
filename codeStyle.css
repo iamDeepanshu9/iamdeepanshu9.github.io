@@ -14,12 +14,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 
 }
-
+*
+{
+    box-sizing: border-box;
+}
 .DailyPosts
 {
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
 }
 .post{
    padding: 20px;
