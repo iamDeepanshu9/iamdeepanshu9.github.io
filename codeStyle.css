@@ -15,9 +15,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .DailyPosts
 {
     display: flex;
+    align-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-between;
     justify-content: center;
 }
 .post{
