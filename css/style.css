@@ -781,6 +781,27 @@ header {
         height: 1px;
         background: #000; }
 
+/* Blur only the background image for work entries */
+.work-entry .work-img.blur-bg {
+  position: relative;
+  background: none !important;
+}
+.work-entry .work-img.blur-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  transform: scale(1.03);
+  z-index: -1;
+}
+
 #colorlib-blog .owl-carousel {
   z-index: 0; }
 

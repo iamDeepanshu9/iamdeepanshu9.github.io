@@ -614,6 +614,14 @@ header{
 	position: relative;
 }
 
+.work-img > .display-t{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: white;
+    padding: 21px 13px 2px 15px;
+}
+
 
 
 //CIRCULAR PROGRESS
@@ -921,8 +929,50 @@ header{
 				}
 			}
 		}
+		.read {
+			text-align: center;
+			margin-top: 20px;
+		  }
+		
+		  .read a {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #007bff;
+			color: white;
+			text-decoration: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background 0.3s ease;
+		  }
+		
+		  .read a:hover {
+			background-color: #0056b3;
+		  }
+		
+		  .details {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.5s ease;
+			background-color: #f9f9f9;
+			padding: 0 20px;
+			border-radius: 5px;
+		  }
+		
+		  .details.open {
+			max-height: 500px; /* large enough to show content */
+			padding: 20px;
+		  }
+		
+		  .details h4 {
+			margin-top: 0;
+		  }
+		
+		  .details ul {
+			padding-left: 20px;
+		  }
 	}
 }
+
 
 //BLOG
 #colorlib-blog{
@@ -1458,6 +1508,9 @@ input[type="text"] {
 }
 
 .colorlib-social-icons{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
 	a{
 		&:hover, &:focus{
 			text-decoration: none !important;
